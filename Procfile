@@ -1,1 +1,1 @@
-web: java --port $PORT $JAVA_OPTS -cp target/classes:target/dependency/* pl.basicstuff.UnmatchedGamesAPI
+web: java -Dserver.port=$PORT $JAVA_OPTS -cp target/classes:target/dependency/* pl.basicstuff.UnmatchedGamesAPI
