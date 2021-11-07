@@ -1,4 +1,4 @@
-# UnmatchedFighterChooser
+# UnmatchedGamesAPI
 
 Very basic and extremely simple REST API providing currently published games/expansions in Unmatched Game System 
 https://boardgamegeek.com/boardgame/295564/unmatched-game-system
