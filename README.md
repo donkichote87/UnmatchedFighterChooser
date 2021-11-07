@@ -1,9 +1,13 @@
 # UnmatchedGamesAPI
 
-Very basic and extremely simple REST API providing currently published games/expansions in Unmatched Game System 
-https://boardgamegeek.com/boardgame/295564/unmatched-game-system
+Very basic and extremely simple REST API providing currently published games/expansions in Unmatched Game System
+(https://boardgamegeek.com/boardgame/295564/unmatched-game-system)
 
-Only endpoint is /games/ with method GET
+You can try it on heroku:
+https://unmatched-games-api.herokuapp.com
+
+Only endpoint at the moment is /games/ with method GET
+(https://unmatched-games-api.herokuapp.com/games)
 
 It doesn't require any parameters returns JSON encoded list of all Unmatched Games with list of Fighters in each game
 
