@@ -4,6 +4,7 @@ import org.springframework.stereotype.Component;
 import pl.basicstuff.model.Box;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @Component
@@ -13,14 +14,14 @@ public class BoxService {
 
     public BoxService() {
         games = new ArrayList<>();
-        games.add(new Box(1L, "Battle of Legends, Volume One (2019)", List.of("King Arthur", "Alice", "Sinbad", "Medusa")));
-        games.add(new Box(2L,"Robin Hood vs. Bigfoot (2019)",List.of("Robin Hood", "Bigfoot")));
-        games.add(new Box(3L,"Bruce Lee (2019)",List.of("Bruce Lee")));
-        games.add(new Box(4L,"Cobble & Fog (2020)",List.of("Invisible Man", "Sherlock Holmes", "Dracula", "Jekyll & Hyde")));
-        games.add(new Box(5L,"Little Red Riding Hood vs. Beowulf (2020)",List.of("Little Red Riding Hood", "Beowulf")));
-        games.add(new Box(6L,"Jurassic Park – InGen vs Raptors (2020)",List.of("InGen", "Raptors")));
-        games.add(new Box(7L,"Buffy the Vampire Slayer (2020)",List.of("Buffy", "Willow", "Spike", "Angel")));
-        games.add(new Box(8L,"Unmatched: Deadpool (2021)",List.of("Deadpool")));
+        games.add(new Box(1L, "Battle of Legends, Volume One (2019)", Arrays.asList("King Arthur", "Alice", "Sinbad", "Medusa")));
+        games.add(new Box(2L, "Robin Hood vs. Bigfoot (2019)", Arrays.asList("Robin Hood", "Bigfoot")));
+        games.add(new Box(3L, "Bruce Lee (2019)", Arrays.asList("Bruce Lee")));
+        games.add(new Box(4L, "Cobble & Fog (2020)", Arrays.asList("Invisible Man", "Sherlock Holmes", "Dracula", "Jekyll & Hyde")));
+        games.add(new Box(5L, "Little Red Riding Hood vs. Beowulf (2020)", Arrays.asList("Little Red Riding Hood", "Beowulf")));
+        games.add(new Box(6L, "Jurassic Park – InGen vs Raptors (2020)", Arrays.asList("InGen", "Raptors")));
+        games.add(new Box(7L, "Buffy the Vampire Slayer (2020)", Arrays.asList("Buffy", "Willow", "Spike", "Angel")));
+        games.add(new Box(8L, "Unmatched: Deadpool (2021)", Arrays.asList("Deadpool")));
 
 //        Below expansions are not yet published
 //        games.add(new Box(9L,"Hell's Kitchen (2021)",List.of("Daredevil", "Elektra", "Bullseye")));
