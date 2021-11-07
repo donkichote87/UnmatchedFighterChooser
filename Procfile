@@ -1,1 +1,1 @@
-web: java -jar target/UnmatchedGamesAPI.jar
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* pl.basicstuff.app.AppInitializer
