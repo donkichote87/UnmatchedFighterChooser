@@ -11,4 +11,4 @@ Only endpoint at the moment is /games/ with method GET
 
 It doesn't require any parameters returns JSON encoded list of all Unmatched Games with list of Fighters in each game
 
-I don't own Unmatched franchise and this API was not made for any commercial purpose, just simply for training and using it myself
+I don't own Unmatched franchise and this API was not made for any commercial purpose, just simply for training and using it myself in some future projects like this one: https://github.com/donkichote87/Unmatched-Game-Randomizer
